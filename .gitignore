@@ -1,0 +1,6 @@
+# Rust
+/target
+
+# Vue
+/node_modules
+/dist
