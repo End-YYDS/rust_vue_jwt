@@ -4,8 +4,9 @@
 This project includes a Rust backend and a Vue.js frontend.
 
 ## Projects
-- `rust_jwt_backend`: The Rust Actix-web backend.
-- `vue_jwt_frontend`: The Vue.js frontend with TypeScript.
+- `backend`: The Rust Actix-web backend.
+- `frontend`: The Vite frontend.
+- `frontTest`: The Vue.js frontend with TypeScript.
 
 ## How to clone Project or Update Project
 ### Clone Repo
@@ -26,12 +27,12 @@ git submodule update --recursive --remote
 
 ## Running the projects
 ### Backend
-Navigate to `rust_jwt_backend` and run:
+Navigate to `backend` and run:
 ```shell
 cargo run
 ```
 ### Frontend
-Navigate to `vue_jwt_frontend` and run:
+Navigate to `frontend` and run:
 ```shell
 npm install
 npm run serve
