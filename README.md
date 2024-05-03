@@ -11,7 +11,7 @@ This project includes a Rust backend and a Vue.js frontend.
 ## How to clone Project or Update Project
 ### Clone Repo
 ```shell
-git clone https://github.com/derrick921213/rust_vue_jwt.git --recurse-submodules
+git clone https://github.com/End-YYDS/rust_vue_jwt.git --recurse-submodules
 ```
 ### 更新Submodule版本
 ```shell
