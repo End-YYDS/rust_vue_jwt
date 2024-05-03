@@ -4,3 +4,6 @@
 [submodule "frontTest"]
 	path = frontTest
 	url = https://github.com/End-YYDS/vue_jwt_frontend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/End-YYDS/vite_jwt_fronted.git
