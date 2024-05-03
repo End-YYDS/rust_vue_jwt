@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/End-YYDS/rust_jwt_backend.git
+[submodule "frontTest"]
+	path = frontTest
+	url = https://github.com/End-YYDS/vue_jwt_frontend.git
