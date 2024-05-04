@@ -8,6 +8,29 @@ This project includes a Rust backend and a Vue.js frontend.
 - `frontend`: The Vite frontend.
 - `frontTest`: The Vue.js frontend with TypeScript.
 
+## 需求軟體
+- git
+- rust 
+- npm/nodejs
+### For Windows
+1. 第一步
+```shell
+Start-Process powershell -verb runas -ArgumentList "Set-ExecutionPolicy ByPass"
+```
+2. 第二步
+執行prepare.ps1
+```shell
+.\prepare.ps1
+```
+
+### For Mac
+1. 第一步
+```shell
+brew install node@20
+brew install rust
+brew install git
+```
+
 ## How to clone Project or Update Project
 ### Clone Repo
 ```shell
