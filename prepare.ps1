@@ -71,5 +71,5 @@ if ($LastExitCode -ne 0) {
     Write-Host "cargo build failed with exit code $LastExitCode"
     exit $LastExitCode
 }
-
+Set-Location -Path $projectPath
 Write-Host "All operations completed successfully."
