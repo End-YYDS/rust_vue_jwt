@@ -33,7 +33,7 @@ $npmInstallScript = {
     $asset = "node-v20.12.2-x64.msi"
     $installer = "$env:temp\$($asset)"
     Invoke-WebRequest -Uri "https://nodejs.org/dist/v20.12.2/node-v20.12.2-x64.msi" -OutFile $installer
-    Start-Process powershell -verb runas -ArgumentList "msiexec.exe /i $installer /quit" -Wait
+    Start-Process powershell -verb runas -ArgumentList "msiexec.exe /i $installer /quiet" -Wait
 }
 
 $rustInstallScript = {
