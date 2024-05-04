@@ -35,7 +35,7 @@ cargo run
 Navigate to `frontend` and run:
 ```shell
 npm install
-npm run serve
+npm run dev 
 ```
 
 ## 其他需要git submodule 可以看這篇
